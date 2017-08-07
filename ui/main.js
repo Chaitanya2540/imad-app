@@ -12,5 +12,5 @@ var element = document.getElementById('main-text'
     img.onclick = function () {
         alert('In the function');
         //img.style.margin = '100px';
-         document.getElementById("modi").style.marginLeft = '100px';
+         img.style.marginLeft = '100px';
     };
