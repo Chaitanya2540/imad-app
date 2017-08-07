@@ -37,7 +37,7 @@ submit.onclick = function () {
   for (var i=0; i< name.length; i++) {
       list += "<li>" + names[i].ToString() + "</li>";
   }
-  alert('Ki');
+  alert(names[0]);
   var ul = document.getElementById('namelist');
   ul.innerHTML = list;
 };
