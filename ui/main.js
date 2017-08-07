@@ -8,7 +8,7 @@ var element = document.getElementById('main-text'
     
     // Move the image
     //var img = document.getElementById('modi');
-    var img = document.getElementByClass('medium');
+    var img = document.getElementByClass('img-medium');
     img.onclick = function () {
         img.style.marginleft = '100px';
     };
