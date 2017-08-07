@@ -7,7 +7,7 @@ var element = document.getElementById('main-text'
     element.innerHTML = 'New Value';
     
     // Move the image
-    var img = document.getElementById('img');
+    var img = document.getElementById('modi');
     img.oneclick = function () {
         img.style.marginleft = '100px';
     };
