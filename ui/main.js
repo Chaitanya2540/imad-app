@@ -11,5 +11,6 @@ var element = document.getElementById('main-text'
     //var img = document.getElementByClass('img-medium');
     img.onclick = function () {
         alert('In the function');
-        img.style.margin = '100px';
+        //img.style.margin = '100px';
+         document.getElementById("modi").style.marginLeft = '100px';
     };
