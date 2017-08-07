@@ -11,5 +11,5 @@ var element = document.getElementById('main-text'
     //var img = document.getElementByClass('img-medium');
     img.onclick = function () {
         alert('In the function');
-        img.style.marginleft = '100px';
+        img.style.margin = '100px';
     };
