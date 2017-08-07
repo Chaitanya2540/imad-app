@@ -10,5 +10,6 @@ var element = document.getElementById('main-text'
     var img = document.getElementById('modi');
     //var img = document.getElementByClass('img-medium');
     img.onclick = function () {
+        alert('In the function');
         img.style.marginleft = '100px';
     };
