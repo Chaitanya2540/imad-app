@@ -25,8 +25,7 @@ button.onclick = function () {
 };
 
 // Submit name
-var nameInput = document.getElementById('name');
-var name = nameInput.value;
+
 var submit = document.getElementById('submit_btn');
 submit.onclick = function () {
   // Make a request to the server and send the name
@@ -42,7 +41,7 @@ submit.onclick = function () {
                 names = JSON.parse(names);
                 var list ='';
                   for (var i=0; i< names.length; i++) {
-                      list += "<li>" + names[i] + "</li>";
+                      list += '<li>' + names[i] + '</li>';
                   }
                   var ul = document.getElementById('namelist');
                   ul.innerHTML = list;
@@ -50,6 +49,8 @@ submit.onclick = function () {
        }
     // Not done yet
     };
+    var nameInput = document.getElementById('name');
+    var name = nameInput.value;
     
     // Make the request 
     request.open('GET', 'http://chaitanya2540.imad.hasura-app.io/submit-name? name=' + name, true);
