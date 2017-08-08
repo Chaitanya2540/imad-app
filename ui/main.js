@@ -53,7 +53,7 @@ submit.onclick = function () {
     var name = nameInput.value;
     
     // Make the request 
-    request.open('GET', 'http://chaitanya2540.imad.hasura-app.io/submit-name? name=' + name, true);
+    request.open('GET', 'http://chaitanya2540.imad.hasura-app.io/submit-name?name=' + name, true);
     request.send(null);
   
 };
